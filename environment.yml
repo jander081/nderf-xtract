@@ -1,0 +1,14 @@
+name: ndrfxtract
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyter
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+      - llama-cpp-python
+      - openai
+      - transformers
+      - huggingface_hub
